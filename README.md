@@ -9,12 +9,12 @@ Controls:
 ----------------------
 SPACE: Start game
 
-W: P1 UP
-S: P1 UP
-
-↑ : P2 UP
-↓ : P2 Down
+W: P1 UP  
+S: P1 UP  
+  
+↑ : P2 UP  
+↓ : P2 Down  
 
 ----------------------
 
-Link to game: [a link](https://drive.google.com/file/d/1LtixCOObzAu8eXAb1DimIL4D0I8mQHb1/view?usp=sharing)
+Link to game: [Goolge Drive](https://drive.google.com/file/d/1LtixCOObzAu8eXAb1DimIL4D0I8mQHb1/view?usp=sharing)
