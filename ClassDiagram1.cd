@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PongAccelerated.Player">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAgAACAIAAAAAAAAQAAAAEAAAAAEAAA=</HashCode>
+      <FileName>Models\Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Paddel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PongAccelerated.Ball">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEBAgAAAAAABAAAAABAQAAA=</HashCode>
+      <FileName>Models\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PongAccelerated.Paddel">
+    <Position X="1.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEBQgAAAAAABAAAQAAAAAAA=</HashCode>
+      <FileName>Models\Paddel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PongAccelerated.PlayArea">
+    <Position X="10.25" Y="3.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAgAAAAAAABAAAABCBAAABAEAAAAAAAAEAAAACAI=</HashCode>
+      <FileName>HelperClasses\PlayArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PongAccelerated.PlayerManager">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACAAAAAAIAAgAAEAAAAAAACgAAAAIAgAIAAIAAA=</HashCode>
+      <FileName>Controllers\PlayerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PongAccelerated.BallManager">
+    <Position X="8.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwgAAAEIAACAUAAAAAAAAAgAAAAQAAEAQAAAAAAAA=</HashCode>
+      <FileName>Controllers\BallManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

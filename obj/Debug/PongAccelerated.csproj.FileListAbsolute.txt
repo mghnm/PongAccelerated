@@ -1,0 +1,9 @@
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\bin\Debug\PongAccelerated.exe.config
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\bin\Debug\PongAccelerated.exe
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\bin\Debug\PongAccelerated.pdb
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\obj\Debug\PongAccelerated.csprojAssemblyReference.cache
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\obj\Debug\PongAccelerated.GameManager.resources
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\obj\Debug\PongAccelerated.Properties.Resources.resources
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\obj\Debug\PongAccelerated.csproj.GenerateResource.cache
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\obj\Debug\PongAccelerated.exe
+C:\Users\mo\source\repos\PongAccelerated\PongAccelerated\obj\Debug\PongAccelerated.pdb
