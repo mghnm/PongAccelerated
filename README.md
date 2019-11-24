@@ -17,4 +17,4 @@ S: P1 UP
 
 ----------------------
 
-Link to game: [Goolge Drive](https://drive.google.com/file/d/1LtixCOObzAu8eXAb1DimIL4D0I8mQHb1/view?usp=sharing)
+Link to game: [Google Drive](https://drive.google.com/file/d/1LtixCOObzAu8eXAb1DimIL4D0I8mQHb1/view?usp=sharing)
