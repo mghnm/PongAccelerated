@@ -91,6 +91,7 @@
   <ItemGroup>
     <Content Include="Res\Ball.png" />
     <Content Include="Res\Paddle.png" />
+    <Content Include="Res\Square.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

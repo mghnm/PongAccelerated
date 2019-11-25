@@ -30,9 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.Timer = new System.Windows.Forms.Timer(this.components);
-            this.ballPic = new System.Windows.Forms.PictureBox();
-            this.paddlePicP2 = new System.Windows.Forms.PictureBox();
-            this.paddlePicP1 = new System.Windows.Forms.PictureBox();
             this.lblP1 = new System.Windows.Forms.Label();
             this.lblP2 = new System.Windows.Forms.Label();
             this.relaylabel = new System.Windows.Forms.Label();
@@ -40,6 +37,9 @@
             this.startLabel = new System.Windows.Forms.Label();
             this.winnerLabel = new System.Windows.Forms.Label();
             this.titleLabel = new System.Windows.Forms.Label();
+            this.ballPic = new System.Windows.Forms.PictureBox();
+            this.paddlePicP2 = new System.Windows.Forms.PictureBox();
+            this.paddlePicP1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ballPic)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.paddlePicP2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.paddlePicP1)).BeginInit();
@@ -49,38 +49,6 @@
             // 
             this.Timer.Interval = 10;
             this.Timer.Tick += new System.EventHandler(this.Timer_Tick);
-            // 
-            // ballPic
-            // 
-            this.ballPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ballPic.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ballPic.Image = global::PongAccelerated.Properties.Resources.Ball1;
-            this.ballPic.Location = new System.Drawing.Point(620, 337);
-            this.ballPic.Margin = new System.Windows.Forms.Padding(0);
-            this.ballPic.Name = "ballPic";
-            this.ballPic.Size = new System.Drawing.Size(25, 25);
-            this.ballPic.TabIndex = 2;
-            this.ballPic.TabStop = false;
-            // 
-            // paddlePicP2
-            // 
-            this.paddlePicP2.Image = global::PongAccelerated.Properties.Resources.Paddle;
-            this.paddlePicP2.Location = new System.Drawing.Point(1244, 245);
-            this.paddlePicP2.Margin = new System.Windows.Forms.Padding(0);
-            this.paddlePicP2.Name = "paddlePicP2";
-            this.paddlePicP2.Size = new System.Drawing.Size(20, 200);
-            this.paddlePicP2.TabIndex = 1;
-            this.paddlePicP2.TabStop = false;
-            // 
-            // paddlePicP1
-            // 
-            this.paddlePicP1.Image = global::PongAccelerated.Properties.Resources.Paddle;
-            this.paddlePicP1.Location = new System.Drawing.Point(-1, 230);
-            this.paddlePicP1.Margin = new System.Windows.Forms.Padding(0);
-            this.paddlePicP1.Name = "paddlePicP1";
-            this.paddlePicP1.Size = new System.Drawing.Size(20, 200);
-            this.paddlePicP1.TabIndex = 0;
-            this.paddlePicP1.TabStop = false;
             // 
             // lblP1
             // 
@@ -159,6 +127,38 @@
             this.titleLabel.TabIndex = 9;
             this.titleLabel.Text = "Pong: Accelerated";
             // 
+            // ballPic
+            // 
+            this.ballPic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ballPic.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ballPic.Image = global::PongAccelerated.Properties.Resources.Square;
+            this.ballPic.Location = new System.Drawing.Point(620, 337);
+            this.ballPic.Margin = new System.Windows.Forms.Padding(0);
+            this.ballPic.Name = "ballPic";
+            this.ballPic.Size = new System.Drawing.Size(25, 25);
+            this.ballPic.TabIndex = 2;
+            this.ballPic.TabStop = false;
+            // 
+            // paddlePicP2
+            // 
+            this.paddlePicP2.Image = global::PongAccelerated.Properties.Resources.Paddle;
+            this.paddlePicP2.Location = new System.Drawing.Point(1244, 245);
+            this.paddlePicP2.Margin = new System.Windows.Forms.Padding(0);
+            this.paddlePicP2.Name = "paddlePicP2";
+            this.paddlePicP2.Size = new System.Drawing.Size(20, 200);
+            this.paddlePicP2.TabIndex = 1;
+            this.paddlePicP2.TabStop = false;
+            // 
+            // paddlePicP1
+            // 
+            this.paddlePicP1.Image = global::PongAccelerated.Properties.Resources.Paddle;
+            this.paddlePicP1.Location = new System.Drawing.Point(-1, 230);
+            this.paddlePicP1.Margin = new System.Windows.Forms.Padding(0);
+            this.paddlePicP1.Name = "paddlePicP1";
+            this.paddlePicP1.Size = new System.Drawing.Size(20, 200);
+            this.paddlePicP1.TabIndex = 0;
+            this.paddlePicP1.TabStop = false;
+            // 
             // GameManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -175,6 +175,7 @@
             this.Controls.Add(this.ballPic);
             this.Controls.Add(this.paddlePicP2);
             this.Controls.Add(this.paddlePicP1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "GameManager";
