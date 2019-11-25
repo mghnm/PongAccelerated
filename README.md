@@ -17,4 +17,10 @@ S: P1 UP
 
 ----------------------
 
-Link to game: [Google Drive](https://drive.google.com/file/d/1LtixCOObzAu8eXAb1DimIL4D0I8mQHb1/view?usp=sharing)
+Changelog:  
+---------
+- v0.6  
+  - Added transfer of momentum from paddle so the ball does not move in a constant y-speed.  
+  
+  
+Link to game: [Google Drive](https://drive.google.com/file/d/1wZLOX99HqW2BcAvPkdyCKlVX0FvU00Po/view?usp=sharing)
